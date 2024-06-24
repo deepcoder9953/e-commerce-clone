@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    height: 5vh;
+    background-color: black;
+    color: whitesmoke;
+}
+nav ul li{
+    display: inline;
+    margin: 68px;
+}
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+}
+nav ul li a:hover{
+    color: rgb(226, 12, 12);
+    font-weight: bold;
+}
+header{
+    background-color: black;
+    display: flex;
+    height: 48px;
+}
+.container{
+    min-height: calc(100vh - 48px - 5vh);
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+main{
+    background-color: aliceblue;
+}
+.container{
+    margin: 2px auto;
+    width: 130vh;
+}
+.card{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1px;
+}
+.y1{
+    margin: 1px;
+    display: flex;
+    
+}
+.y2{
+    margin: 1px;
+    display: flex;
+}
+.y3{
+    color: red;
+    margin: 1px;
+    display: flex;
+}
+.y1 a{
+    text-decoration: none;
+    color: coral;
+}
+.y1 a:hover{
+    color: darkblue;
+    font-style: italic;
+}
+.container h1{
+    text-align: center;
+    color: white;
+    animation-name: blink;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes blink {
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: green;
+    }
+    50%{
+        background-color: blue;
+    }
+    75%{
+        background-color: brown;
+    }
+    100%{
+        background-color: blanchedalmond;
+    }
+
+}
